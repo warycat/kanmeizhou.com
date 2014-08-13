@@ -57,11 +57,16 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'open_sansbold', sans-serif;
+    font-family: 'STXihei', sans-serif;
+}
+
+h5{
+    font-family: 'STHeiti', sans-serif;
 }
 
 p {
     margin: 1em 0;
+    font-family:'STHeiti';
 }
 
     @media (min-width: 768px) {
@@ -344,7 +349,7 @@ p {
     cursor: default;
     z-index:100;
     outline:none;
-    opacity: 0;
+    opacity: 100;
     filter: alpha(opacity=0);
     -webkit-transition: all 0.4s;
     transition: all 0.4s;  
@@ -439,6 +444,7 @@ p {
     overflow: visible;
     min-height:1px;
     font-family: 'open_sanslight', sans-serif;
+    height:100%;
 }
 
     @media (min-width: 768px) {
@@ -515,7 +521,6 @@ p {
 
     @media (min-width: 768px) {
         #main-content .section-wrapper .content-wrapper {
-            position: absolute;
             right:0;
             bottom:16%;
             text-align: right;
@@ -702,6 +707,13 @@ h6 {
 #main-content .grid .text-content {
     display:block;
     padding-left:25%;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.29) 0%, rgba(0,0,0,0) 78%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.29)), color-stop(78%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000',GradientType=0 ); 
 }
 
     @media (min-width: 768px) {

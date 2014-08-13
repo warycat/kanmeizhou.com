@@ -837,7 +837,7 @@ function load_images(images_objects_selector_class, remove_selector_class_after_
             }
 
             // if enabled, correct vertical positioning of sections (after last image) (only when not viewing on mobile viewport)
-            if (vertical_layout_positioning_check == true && i == count_images_to_load-1 && (!jQuery.browser.mobile || viewport().width > window.xs_screen_max))
+            if (vertical_layout_positioning_check == true && i == count_images_to_load-1 && (viewport().width > window.xs_screen_max))
             {
                 sections_content_vertical_position();
             }

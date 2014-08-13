@@ -5,10 +5,20 @@
     padding: 0.2em 0;
 }
 
+
+canvas {
+    position:fixed;
+    background:#031;
+    top:0px;
+    width:1024px;
+}
+
 /* Space out content a bit */
-body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.gui {
+    position:absolute;
+    width:1024px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
