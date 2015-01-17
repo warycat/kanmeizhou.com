@@ -1,0 +1,791 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>行程介绍</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="css/base.css" type="text/css" rel="stylesheet" />
+<link href="css/trip.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body style="background:#f5f5f5;">
+<div class="wrap">
+<!--<div class="fixed">
+    <a href="#" class="icy">0</a>
+    <span class="icz"><img src="images/ic12.jpg" /></span>
+</div>-->
+<div class="header">
+   <div class="topa">
+        <div class="topabox">
+            <div class="login"><a href="#">登录 </a>/<a href="#">注册</a></div>
+            <div class="topari">
+                <div class="name">你好，欢迎来到看美洲旅游网</div>
+                <div class="help">
+                     <span><img src="images/ic15.jpg" /></span>
+                     <a href="#">我的看美洲</a>
+                     <span><img src="images/ic15.jpg" /></span>
+                     <a href="#">帮助中心</a>
+                     <span><img src="images/ic15.jpg" /></span>
+                </div>
+                <div class="my">
+                   <p>关注我们:</p>
+                   <a href="#"><img src="images/ic1.png" /></a>
+                   <a href="#"><img src="images/ic2.png" /></a>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="topb">
+       <div class="topbbox">
+          <div class="logo"><img src="images/logo.png" /></div>
+          <div class="search">
+              <div class="sea">
+                   <select name="" class="txt1"></select>
+              </div>
+              <div class="seb">
+                   <select name="" class="txt2"></select>
+                   <input name="" type="button" class="but1" value="搜索"/>
+              </div>
+          </div>
+       <!--   <div class="searbox">
+              <ul>
+                 <li>
+                    <p>美东</p>
+                    <span>
+                        <a href="#">纽约</a>
+                        <a href="#" class="sea_h">波士顿</a>
+                        <a href="#">华盛顿</a>
+                        <a href="#">费城</a>
+                        <a href="#">芝加哥</a>
+                    </span>
+                 </li>
+                 <li>
+                    <p>美西</p>
+                    <span>
+                        <a href="#">洛杉矶 </a>
+                        <a href="#">拉斯维加斯</a>
+                        <a href="#">旧金山</a>
+                        <a href="#">盐湖城</a>
+                        <a href="#">凤凰城</a>
+                        <a href="#">西雅图</a>
+                    </span>
+                 </li>
+                 <li>
+                    <p>夏威夷 </p>
+                    <span>
+                        <a href="#">檀香山</a>
+                    </span>
+                 </li>
+                 <li>
+                    <p>佛罗里达</p>
+                    <span>
+                        <a href="#">奥兰多迈阿密</a>
+                    </span>
+                 </li>
+                  <li>
+                    <p>加拿大</p>
+                    <span>
+                        <a href="#">温哥华多伦多</a>
+                    </span>
+                 </li>
+              </ul>
+          </div>-->
+          <div class="ica"><img src="images/ic3.png" /></div>
+          <div class="telp">
+              <p>7x24小时客服电话 </p>
+              <span>400-093-5893</span>
+          </div>
+       </div>
+   </div>
+   <div class="topc">
+        <div class="topcbox">
+             <div class="menu">
+                  <p class="ma">全部旅游产品分类</p>
+                  <span class="mv"></span>
+            <!--     <div class="sunmenu">
+                      <ul class="suma">
+                          <li>
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta1.png" /></span>
+                                     <p>美西</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                          </li>
+                          <li class="suma_h">
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta2.png" /></span>
+                                     <p>美东</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                          </li>
+                          <li>
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta3.png" /></span>
+                                     <p>夏威夷</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                             <ul>
+                                 <li><a href="#">檀香山</a></li>
+                                 <li class="sul_h"><a href="#">火山国家公园</a></li>
+                                 <li><a href="#">火山大岛</a></li>
+                                 <li><a href="#">茂宜岛</a></li>
+                                 <li><a href="#">拉斯维加斯</a></li>
+                                 <li><a href="#">西大峡谷</a></li>
+                                 <li><a href="#">大峡谷国家公园 </a></li>
+                                 <li><a href="#">旧金山</a></li>
+                                 <li><a href="#">优胜美地</a></li>
+                                 <li><a href="#">可爱岛洛杉矶</a></li>
+                                 <li><a href="#">迪士尼乐园</a></li>
+                                 <li><a href="#">环球影城</a></li>
+                                 <li><a href="#">17哩海湾</a></li>
+                                 <li><a href="#">圣地亚哥</a></li>
+                                 <li><a href="#">夏威夷游轮</a></li>
+                             </ul>
+                          </li>
+                          <li>
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta4.png" /></span>
+                                     <p>国家公园</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                          </li>
+                          <li>
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta5.png" /></span>
+                                     <p>主题乐园</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                          </li>
+                          <li style="border-bottom:0px;">
+                             <div class="sumb">
+                                  <div class="sumc">
+                                     <span class="ia"><img src="images/ta6.png" /></span>
+                                     <p>加拿大</p>
+                                     <span class="ib"><img src="images/ta7.png" /></span>
+                                  </div>
+                                  <div class="sumd">
+                                       <a href="#">洛杉矶</a>
+                                       <a href="#">旧金山</a>
+                                       <a href="#">圣地亚哥 </a>
+                                       <a href="#">拉斯维加斯</a>
+                                       <a href="#">大峡谷</a>
+                                  </div>
+                             </div>
+                          </li>
+                      </ul>
+                 </div>-->
+             </div>
+             <div class="nav">
+                 <ul>
+                    <li><a href="#">首页 </a></li>
+                    <li><a href="#">地接</a></li>
+                    <li class="nav_h"><a href="#">VIP定制</a></li>
+                    <li><a href="#">游轮</a></li>
+                    <li><a href="#">结伴看美洲</a></li>
+                    <li><a href="#">门票</a></li>
+                    <li><a href="#">评论分享</a></li>
+                    <li><a href="#">资讯</a></li>
+                 </ul>
+             </div>
+        </div>
+   </div>
+</div>
+<div class="main">
+    <div class="mainbox">
+         <div class="msg">
+             <span><img src="images/ic17.png" /></span>
+             <p><a href="#">首页 ></a></p>
+             <p><a href="#">美西 ></a></p>
+             <p><a href="#">三日 旧金山, 优山美地, 赫氏古堡畅意游 </a></p>
+         </div>
+         <div class="mune">
+             <div class="tripone">
+                  <div class="trionle">
+                      <div class="tripa"><img src="images/ime1.jpg" /></div>
+                      <div class="tripb">
+                          <span class="tra"><img src="images/ime8.jpg" /></span>
+                          <ul>
+                             <li><a href="#"><img src="images/ime2.jpg" /></a></li>
+                             <li><a href="#"><img src="images/ime3.jpg" /></a></li>
+                             <li><a href="#"><img src="images/ime4.jpg" /></a></li>
+                             <li><a href="#"><img src="images/ime5.jpg" /></a></li>
+                          </ul>
+                          <span class="trb"><img src="images/ime9.jpg" /></span>
+                      </div>
+                  </div>
+                  <div class="trionri">
+                      <div class="tripc">
+                          <p class="trc">三日　旧金山, 优山美地, 赫氏古堡畅意游</p>
+                          <p class="trd">$158<span class="tre">起</span><img src="images/ime10.jpg" /></p>
+                      </div>
+                      <div class="tripg">
+                          <div class="trh"><img src="images/ime11.jpg" /></div>
+                          <div class="tri">
+                             <p>1. 此价格为四人同住一个标准间时，每人所需支付的团费。 2. 此价格会根据您所选择的出发日期、酒店等级以及其他附加服务等而浮动。</p>
+                          </div>
+                      </div>
+                      <div class="tripd">
+                          <p><span>团号：</span>SFO/YH3</p>
+                          <p><span>地接社：</span>丽山旅游</p>
+                          <p><span>出发地：</span>旧金山</p>
+                          <p><span>结束地：</span>旧金山</p>
+                          <p><span>出发日期：</span>每周一、五（2014年3月21日-11月24日）加开: 2014年11月26日</p>
+                      </div>
+                      <div class="tripe">
+                          <p>行程特色：<span>游览美西最负盛名的优山美地国家公园，一路怪石嶙峋，悬崖峭壁，千丈飞瀑，万里峰峦，彷<br />
+               彿置身世外。 参观报业巨子赫氏故居: 赫氏古堡，威廉蓝道夫赫氏早年投资矿业    [ <a href="#">展开 +</a> ]</span></p>
+                      </div>
+                      <div class="tripf">
+                           <a href="#" class="trf"><img src="images/ime6.jpg" /></a>
+                           <a href="#" class="trg"><img src="images/ime7.jpg" /></a>
+                           <ul>
+                              <p>分享到</p>
+                              <li><a href="#"><img src="images/ime12.jpg" /></a></li>
+                              <li><a href="#"><img src="images/ime13.jpg" /></a></li>
+                              <li><a href="#"><img src="images/ime14.jpg" /></a></li>
+                              <li><a href="#"><img src="images/ime15.jpg" /></a></li>
+                           </ul>
+                      </div>
+                  </div>
+             </div>
+             <div class="triptwo">
+                 <div class="ttwole">
+                    <p><span class="trj">出发日期与价格</span>(旺季价格和位置变化较快，以下信息仅供参考，请您谅解。)</p>
+                    <span class="trk"><img src="images/ime16.jpg" /></span>
+                 </div>
+                 <div class="ttwori">
+                     <ul>
+                        <li>
+                           <p>选择出发日期</p>
+                           <select name="" class="txt3"></select>
+                        </li>
+                        <li>
+                           <p>选择出发地点</p>
+                           <select name="" class="txt3"></select>
+                        </li>
+                         <li>
+                           <p>选择酒店房间</p>
+                           <select name="" class="txt3"></select>
+                        </li>
+                        <li>
+                           <p>价格：<span>$158</span></p>
+                        </li>
+                        <li><input name="" type="button" class="but2" value="立即订购"/>
+                        </li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="tripthree">
+                 <div class="trilist">
+                     <ul>
+                        <li class="tri_h"><a href="#">行程介绍</a></li>
+                        <li><a href="#">订购须知</a></li>
+                        <li><a href="#">价格明细</a></li>
+                        <li><a href="#">上车信息</a></li>
+                        <li><a href="#">接送机信息</a></li>
+                        <li><a href="#">问题咨询</a></li>
+                        <li><a href="#">回访评价</a></li>
+                        <li><a href="#">旅程分享</a></li>
+                        <li><a href="#">结伴看美洲</a></li>
+                     </ul>
+                 </div>
+                 <div class="tripul">
+                     <ul>
+                        <span class="trl"><img src="images/ime17.png" /></span>
+                        <li>
+                           <div class="trial">
+                              <div class="ytas">
+                                 <p class="ta">第</p>
+                                 <span class="tb">1</span>
+                                 <p class="ta">天</p>
+                                 <p class="tc">原居地(Hometown) – 旧金山(San Francisco)市区观光</p>
+                              </div>
+                              <div class="ytbs">
+                                 <div class="yale"><img src="images/ime18.jpg" /></div>
+                                 <div class="yari">
+                                      <div class="yaone">
+                                          <p><span><img src="images/ime19.jpg" /></span>用餐: 游客自理 </p>
+                                          <p><span><img src="images/ime20.jpg" /></span>交通: 旅游大巴 </p>
+                                          <p><span><img src="images/ime21.jpg" /></span>酒店: Hilton或 Crown Plaza </p>
+                                      </div>
+                                       <div class="yatwo">
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>团友搭乘飞机，抵达世界名城旧金山，接机后专业导游为您作全日风光介绍，遍及本市各处名胜古蹟。行程包括金门大桥、联合广场、财经中心、渔人码头、金门公园、市政中心、市场大道、中国城、艺术宫、双子峰等等。本市人口七十多万，移民与外裔佔半数以上，乃典型之国际都市	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="tro"></span>
+                                               <p>请订11:00am以前到达旧金山(SFO)的班机, 若因班机延误或其他因素未能准时到达, 当日市区游将视同自动放弃, 相关费用不予退回.	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>如遇班机延误, 请务必立即通知本公司另作接机安排, 否则所有附加费用需由客人负责. </p>
+                                            </span>
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <span class="trl"><img src="images/ime17.png" /></span>
+                        <li>
+                           <div class="trial">
+                              <div class="ytas">
+                                 <p class="ta">第</p>
+                                 <span class="tb">2</span>
+                                 <p class="ta">天</p>
+                                 <p class="tc">原居地(Hometown) – 旧金山(San Francisco)市区观光</p>
+                              </div>
+                              <div class="ytbs">
+                                 <div class="yale"><img src="images/ime18.jpg" /></div>
+                                 <div class="yari">
+                                      <div class="yaone">
+                                          <p><span><img src="images/ime19.jpg" /></span>用餐: 游客自理 </p>
+                                          <p><span><img src="images/ime20.jpg" /></span>交通: 旅游大巴 </p>
+                                          <p><span><img src="images/ime21.jpg" /></span>酒店: Hilton或 Crown Plaza </p>
+                                      </div>
+                                       <div class="yatwo">
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>团友搭乘飞机，抵达世界名城旧金山，接机后专业导游为您作全日风光介绍，遍及本市各处名胜古蹟。行程包括金门大桥、联合广场、财经中心、渔人码头、金门公园、市政中心、市场大道、中国城、艺术宫、双子峰等等。本市人口七十多万，移民与外裔佔半数以上，乃典型之国际都市	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="tro"></span>
+                                               <p>请订11:00am以前到达旧金山(SFO)的班机, 若因班机延误或其他因素未能准时到达, 当日市区游将视同自动放弃, 相关费用不予退回.	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>如遇班机延误, 请务必立即通知本公司另作接机安排, 否则所有附加费用需由客人负责. </p>
+                                            </span>
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="trial">
+                              <div class="ytas">
+                                 <p class="ta">第</p>
+                                 <span class="tb">3</span>
+                                 <p class="ta">天</p>
+                                 <p class="tc">原居地(Hometown) – 旧金山(San Francisco)市区观光</p>
+                              </div>
+                              <div class="ytbs">
+                                 <div class="yale"><img src="images/ime18.jpg" /></div>
+                                 <div class="yari">
+                                      <div class="yaone">
+                                          <p><span><img src="images/ime19.jpg" /></span>用餐: 游客自理 </p>
+                                          <p><span><img src="images/ime20.jpg" /></span>交通: 旅游大巴 </p>
+                                          <p><span><img src="images/ime21.jpg" /></span>酒店: Hilton或 Crown Plaza </p>
+                                      </div>
+                                       <div class="yatwo">
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>团友搭乘飞机，抵达世界名城旧金山，接机后专业导游为您作全日风光介绍，遍及本市各处名胜古蹟。行程包括金门大桥、联合广场、财经中心、渔人码头、金门公园、市政中心、市场大道、中国城、艺术宫、双子峰等等。本市人口七十多万，移民与外裔佔半数以上，乃典型之国际都市	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="tro"></span>
+                                               <p>请订11:00am以前到达旧金山(SFO)的班机, 若因班机延误或其他因素未能准时到达, 当日市区游将视同自动放弃, 相关费用不予退回.	</p>
+                                            </span>
+                                            <span class="trn">
+                                               <span class="trm"></span>
+                                               <p>如遇班机延误, 请务必立即通知本公司另作接机安排, 否则所有附加费用需由客人负责. </p>
+                                            </span>
+                                       </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>订购须知</p></div>
+                 <div class="ytipob">
+                     <span>订购条例</span>
+                     <p>在您订购看美洲旅游行程前，请认真阅读看<a href="#">美洲客户协议和取消和修改条例！</a></p>
+                     <p>为保证行程顺畅, 出团公司有权更改行程或调整景点游览的先后次序。</p>
+                     <span>特别事项</span>
+                     <p>如遇班机延误, 请务必立即通知本公司另作接机安排, 否则所有附加费用需由客人负责。</p>
+                     <p>标准双人房以两张双人床为主, 三人、四人房均为同一房间由三人或四人共同使用, 不另加床。</p>
+                     <p>2岁以下的儿童将收取每天25美元的强制性责任保险, 保证有座位给孩子。如客人喜欢抱孩子不占用该座位, 每天25美元的强制性责任保险仍需照付。</p>
+                     <p>按酒店消防条例, 每房最多只可容纳四人 (成人、小童及婴儿)。</p>
+                     <span><span class="trp">订购流程以及支付形式</span><img src="images/ime22.jpg" /></span>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>价格明细</p></div>
+                 <div class="yakas">
+                     <div class="yaha"><p>价格表格</p></div>
+                     <div class="ybhb">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr class="ouc">
+                              <td width="80" height="43px;" class="oua">人数 </td>
+                              <td width="252"><p class="oub"><span class="oud">1</span>人房</p></td>
+                              <td width="252"><p class="oub"><span class="oud">2</span>人一房</p></td>
+                              <td width="252"><p class="oub"><span class="oud"></span>3人一房</p></td>
+                              <td width="252"><p class="oub"><span class="oud">4</span>人一房</p></td>
+                            </tr>
+                            <tr class="ouc">
+                              <td width="80" height="43px;" class="oua">床型</td>
+                              <td width="252" height="43px;"><span class="oug"><img src="images/ime23.jpg" /></span></td>
+                              <td><span class="oug"><img src="images/ime23.jpg" />或<img src="images/ime24.jpg" /><img src="images/ime24.jpg" /></span></td>
+                              <td><span class="oug"><img src="images/ime24.jpg" /><img src="images/ime24.jpg" /></span></td>
+                              <td><span class="oug"><img src="images/ime24.jpg" /><img src="images/ime24.jpg" /></span></td>
+                            </tr>
+                            <tr class="ouc">
+                              <td width="80" height="43px;" class="oua">价格</td>
+                              <td><p class="oue">$488</p></td>
+                              <td><p class="oue">$488</p></td>
+                              <td><p class="oue">$488</p></td>
+                              <td><p class="oue">$488</p></td>
+                            </tr>
+                        </table>
+
+                     </div>
+                     <div class="yaha"><p>团费包括</p></div>
+                     <div class="ychc">
+                        <p><span><img src="images/ime25.jpg" /></span>优胜美地国家公园门票</p>
+                        <p><span><img src="images/ime26.jpg" /></span>赫氏古堡门票</p>
+                        <p><span><img src="images/ime25.jpg" /></span>酒店住宿</p>
+                        <p><span><img src="images/ime26.jpg" /></span>一趟旧金山机场(SFO)接机<br />&nbsp;&nbsp;&nbsp;请订11:00am以前到达旧金山(SFO)的班机，若因班机延误或其他因素未能准时到达，当日市区游将视同自动放弃，相关费用不予退回.</p>
+                        <p><span><img src="images/ime25.jpg" /></span>酒店住宿</p>
+                        <p><span><img src="images/ime26.jpg" /></span>一趟旧金山机场(SFO)送机<br />&nbsp;&nbsp;&nbsp;送机时间：请订9pm以后离开旧金山(SFO)的班机。</p>
+                     </div>
+                     <div class="yaha"><p>团费不包括</p></div>
+                     <div class="ychc">
+                        <p><span><img src="images/ime25.jpg" /></span>餐食</p>
+                        <p><span><img src="images/ime26.jpg" /></span>自费项目（除非注明，皆可自选）：<br />&nbsp;&nbsp;&nbsp;&nbsp;海湾游轮 - 大人(18+) $25, 小孩(5-17岁) $18 </p>
+                        <p><span><img src="images/ime25.jpg" /></span>儿童保险（2岁以下的儿童将收取每天25美元的强制性责任保险, 保证有座位给孩子。如客人喜欢抱孩子不占用该座位, 每天25美元的强制性责任保险仍需照付。</p>
+                      
+                     </div>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>接送机信息</p></div>
+                 <div class="yakas">
+                     <div class="ychc" style="padding-top:20px;">
+                        <p><span><img src="images/ime25.jpg" /></span>请订11:00am以前到达旧金山(SFO)的班机, 若因班机延误或其他因素未能准时到达, 当日市区游将视同自动放弃, 相关费用不予退回.</p>
+                        <p><span><img src="images/ime26.jpg" /></span>如遇班机延误, 请务必立即通知本公司另作接机安排, 否则所有附加费用需由客人负责.</p>
+                     </div>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>问题咨询</p><a href="#" class="oia"><img src="images/ime27.jpg" /></a></div>
+                 <div class="yakas">
+                     <div class="yaskj">
+                        <ul>
+                          <li>
+                             <p><span class="oib">Q</span>如果想加订行程前酒店，加订哪里的酒店比较方便呢？</p>
+                             <p><span class="oic">A</span>您好。感谢您对路路行的关注！一般加订在曼哈顿下城或法拉盛地区的酒店距离该行程的上车地点比较近，相对而言比较方便。进一步的问题，欢迎拨打看美洲美国的免费电话<span class="oid">400-093-5893</span>,谢谢。</p>
+                          </li>
+                          <li>
+                             <p><span class="oib">Q</span>如果想加订行程前酒店，加订哪里的酒店比较方便呢？</p>
+                             <p><span class="oic">A</span>您好。感谢您对路路行的关注！一般加订在曼哈顿下城或法拉盛地区的酒店距离该行程的上车地点比较近，相对而言比较方便。进一步的问题，欢迎拨打看美洲美国的免费电话<span class="oid">400-093-5893</span>,谢谢。</p>
+                          </li>
+                          <li>
+                             <p><span class="oib">Q</span>如果想加订行程前酒店，加订哪里的酒店比较方便呢？</p>
+                             <p><span class="oic">A</span>您好。感谢您对路路行的关注！一般加订在曼哈顿下城或法拉盛地区的酒店距离该行程的上车地点比较近，相对而言比较方便。进一步的问题，欢迎拨打看美洲美国的免费电话<span class="oid">400-093-5893</span>,谢谢。</p>
+                          </li>
+                          <li>
+                             <p><span class="oib">Q</span>如果想加订行程前酒店，加订哪里的酒店比较方便呢？</p>
+                             <p><span class="oic">A</span>您好。感谢您对路路行的关注！一般加订在曼哈顿下城或法拉盛地区的酒店距离该行程的上车地点比较近，相对而言比较方便。进一步的问题，欢迎拨打看美洲美国的免费电话<span class="oid">400-093-5893</span>,谢谢。</p>
+                          </li>
+                          <li style="border-bottom:0px;"><a href="#">更多咨询 ></a></li>
+                        </ul>
+                     </div>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>回访评价</p></div>
+                 <div class="yakas">
+                     <div class="iwef">
+                        <ul>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kajsed">
+                                  <span class="aawq">
+                                       <p class="bbwq">行程安排:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">导游服务:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">看美洲客服:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="askju">2014-08-10</p>
+                                  </span>
+                                  <p class="oias">伊力特女士岛的大堡礁非常漂亮，导游Simon也非常热情，还有一个忘记名字的大叔，会讲中文，90年代在北<br />大上过学，还在三里屯呆过，所以备感亲切。</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kajsed">
+                                  <span class="aawq">
+                                       <p class="bbwq">行程安排:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">导游服务:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">看美洲客服:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="askju">2014-08-10</p>
+                                  </span>
+                                  <p class="oias">伊力特女士岛的大堡礁非常漂亮，导游Simon也非常热情，还有一个忘记名字的大叔，会讲中文，90年代在北<br />大上过学，还在三里屯呆过，所以备感亲切。</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kajsed">
+                                  <span class="aawq">
+                                       <p class="bbwq">行程安排:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">导游服务:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">看美洲客服:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="askju">2014-08-10</p>
+                                  </span>
+                                  <p class="oias">伊力特女士岛的大堡礁非常漂亮，导游Simon也非常热情，还有一个忘记名字的大叔，会讲中文，90年代在北<br />大上过学，还在三里屯呆过，所以备感亲切。</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kajsed">
+                                  <span class="aawq">
+                                       <p class="bbwq">行程安排:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">导游服务:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="bbwq">看美洲客服:<img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime29.jpg" /><img src="images/ime30.jpg" /></p>
+                                       <p class="askju">2014-08-10</p>
+                                  </span>
+                                  <p class="oias">伊力特女士岛的大堡礁非常漂亮，导游Simon也非常热情，还有一个忘记名字的大叔，会讲中文，90年代在北<br />大上过学，还在三里屯呆过，所以备感亲切。</p>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="ahlister" >
+                      <ul>
+                         <li class="ahli"><a href="#">前一页</a></li>
+                         <li><a href="#">1</a></li>
+                         <li class="ah_h"><a href="#">2</a></li>
+                         <li><a href="#">3</a></li>
+                         <li><a href="#">4</a></li>
+                         <li><a href="#">5</a></li>
+                         <li><a href="#">6</a></li>
+                         <li><a href="#">7</a></li>
+                         <li><a href="#">8</a></li>
+                         <li class="ahli"><a href="#">下一页</a></li>
+                      </ul>
+                  </div>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>旅程分享</p></div>
+                 <div class="yakas">
+                     <div class="kasjle">
+                         <p>将您的旅途中的靓照与看美洲的朋友分享，看美洲对上传的照片每张给予 100 积分的奖励，上传多多，积分多多，更可为您下次的旅行节省开支！也可以结识更多的旅友！</p>
+                         <ul>
+                            <li><a href="#">查看更多 </a>|</li>
+                            <li><a href="#">积分奖励 </a>|</li>
+                            <li><a href="#">优惠活动 </a></li>
+                         </ul>
+                         <a href="#" class="akjs"><img src="images/ime32.jpg" /></a>
+                     </div>
+                     <div class="kajri"><img src="images/ime31.jpg" /></div>
+                 </div>
+             </div>
+             <div class="tripmu">
+                 <div class="ytipoa"><p>结伴看美洲</p><a href="#" class="oia"><img src="images/ime33.jpg" /></a></div>
+                 <div class="yakas">
+                     <div class="iwef">
+                        <ul>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kljas">
+                                 <span>男生一名【四天千岛湖、瀑布、华盛顿】　　　　</span>
+                                 <p>我是喜欢旅游的男生 求时间合适的人  一起拼房旅游  可是加我QQ1400106453</p>
+                                 <p>2014-07-30 </p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="lasu">
+                                 <span><img src="images/ime28.jpg" /></span>
+                                 <p>魅力美洲</p>
+                              </div>
+                              <div class="kljas">
+                                 <span>男生一名【四天千岛湖、瀑布、华盛顿】　　　　</span>
+                                 <p>我是喜欢旅游的男生 求时间合适的人  一起拼房旅游  可是加我QQ1400106453</p>
+                                 <p>2014-07-30 </p>
+                              </div>
+                           </li>
+                           <li style="border-bottom:0px;">
+                            <a href="#" class="kjas">更多结伴 ></a>
+                           </li>
+                        </ul>
+                     </div>
+                 </div>
+             </div>
+             
+         </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="link">
+         <div class="linkbox">
+              <ul>
+                 <p class="mm"><span class="ml"><img src="images/ta17.png" /></span>关于我们</p>
+                  <li><a href="#">关于我们</a></li>
+                  <li><a href="#">联系我们</a></li>
+                  <li><a href="#">加入我们</a></li>
+                  <li><a href="#">商务合作</a></li>
+                  <li><a href="#">版权声明</a></li>
+              </ul>
+              <ul>
+                 <p class="mm"><span class="ml"><img src="images/ta18.png" /></span>服务条款</p>
+                  <li><a href="#">客户协议</a></li>
+                  <li><a href="#">隐私条例</a></li>
+                  <li><a href="#">信用卡支付</a></li>
+                  <li><a href="#">取消和退款</a></li>
+              </ul>
+               <ul>
+                 <p class="mm"><span class="ml"><img src="images/ta19.png" /></span>帮助中心</p>
+                  <li><a href="#">预定指南</a></li>
+                  <li><a href="#">常见问题</a></li>
+                  <li><a href="#">积分奖励</a></li>
+                  <li><a href="#">签证协助</a></li>
+                  <li><a href="#">旅游资讯</a></li>
+                  <li><a href="#">旅游保险</a></li>
+              </ul>
+               <ul>
+                 <p class="mm"><span class="ml"><img src="images/ta20.png" /></span>服务热线</p>
+                 <p class="mn">7x24小时客服电话 </p>
+                 <p class="mo"><span class="mp">中国</span> 400-093-5893</p>
+                 <p class="mo"><span class="mp">美国</span> 800-910-9888</p>
+              </ul>
+              <ul style="margin-right:0px;">
+                 <p class="mm"><span class="ml"><img src="images/ta21.png" /></span>关注我们</p>
+                 <span class="mq">
+                     <img src="images/ima22.jpg" /><img src="images/ic9.png" />
+                 </span>
+              </ul>
+         </div>
+    </div>
+    <div class="copy">
+        <div class="copybox">
+            <p class="mr">&copy;2014 看美洲版权所有   粤ICP备12091896号-1</p>
+            <span class="ms"><img src="images/ic7.png" /></span>
+            <p class="mt">上海工商</p>
+            <span class="ms"><img src="images/ic8.png" /></span>
+            <p class="mt">诚信网站</p>
+            <p class="mu">Desingn  by smallview</p>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+$('.ahlister li').mouseenter(function(){
+$(this).addClass('ah_h').siblings().removeClass('ah_h');
+});
+$('.trilist li').mouseenter(function(){
+$(this).addClass('tri_h').siblings().removeClass('tri_h');
+});
+$('.nav li').mouseenter(function(){
+$(this).addClass('nav_h').siblings().removeClass('nav_h');
+});
+$('.searbox a').mouseenter(function(){
+$(this).addClass('sea_h').siblings().removeClass('sea_h');
+});
+$('.sunmenu li').mouseenter(function(){
+$(this).addClass('suma_h').siblings().removeClass('suma_h');
+});
+$('.sunmenu li').mouseenter(function(){
+$(this).addClass('sul_h').siblings().removeClass('sul_h');
+});
+$('.irita li').mouseenter(function(){
+$(this).addClass('riul_h').siblings().removeClass('riul_h');
+});
+ $('.irita li').mouseenter(function(){
+	   $(this).addClass('riul_h').siblings().removeClass('riul_h');
+	   var wuhan=$(this).index();
+	   $('.iritb').hide();
+	   $('.iritb').eq(wuhan).show();
+	   });
+$('.iritb li').mouseenter(function(){
+$(this).addClass('ria_h').siblings().removeClass('ria_h');
+});
+
+
+$('.menu').mouseenter(function(){
+	 $(this).css('','');
+	 $('.sunmenu').show();
+	 });
+ $('.menu').mouseleave(function(){
+	 $(this).css('','');
+	 $('.sunmenu').hide(); 
+	 });
+$('.orita li').mouseenter(function(){
+$(this).addClass('roul_h').siblings().removeClass('roul_h');
+});
+
+ $('.orita li').mouseenter(function(){
+	   $(this).addClass('roul_h').siblings().removeClass('roul_h');
+	   var wuhan=$(this).index();
+	   $('.oritb').hide();
+	   $('.oritb').eq(wuhan).show();
+	   });
+$('.oritb li').mouseenter(function(){
+$(this).addClass('oia_h').siblings().removeClass('oia_h');
+});
+</script>
+</body>
+</html>

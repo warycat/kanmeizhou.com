@@ -1,0 +1,959 @@
+@charset "utf-8";
+/* CSS Document */
+.ordtop{
+	max-width:1200px;
+	width:100%;
+	min-height:120px;
+	float:left;
+	margin-top:30px;
+	}
+.ordtop ul{
+	float:left;
+	margin-left:17%;
+	}
+.ordtop li{
+	width:197px;
+	height:120px;
+	float:left;
+	}
+.ordtop li span{
+	display:block;
+	float:left;
+	width:197px;
+	height:50px;
+	}
+.ordtop li p{
+	width:197px;
+	height:30px;
+	float:left;
+	color:#333;
+	font-size:1.6em;
+	line-height:30px;
+	text-align:center;
+	}
+.ordbox{
+	max-width:1200px;
+	width:100%;
+	float:left;
+	overflow:hidden;
+	height:auto;
+	background:#fff;
+	}
+.ordone{
+	max-width:1200px;
+	width:100%;
+	min-height:40px;
+	float:left;
+	background:#8589d5;
+	}
+.ordone p{
+	line-height:40px;
+	color:#fff;
+	font-size:1.4em;
+	margin-left:20px;
+	}
+.ordtwo{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	border-bottom:1px dashed #444444;
+	margin-left:28px;
+	margin-top:20px;
+	padding-bottom:20px;
+	}
+.ordtwo .oua{
+	color:#444444;
+	margin-left:97px;
+	font-weight:600;
+	line-height:30px;
+	font-size:1.4em;
+	}
+.ordtwo .ora{
+	color:#666666;
+	font-size:1.2em;
+	line-height:23px;
+	}
+.ordtwo .ora .orb{
+	color:#999999;
+	}
+.ordtwo .ora a{
+	color:#0025dd;
+	}
+.ordtwo .orc{
+	color:#444;
+	font-size:1.2em;
+	line-height:23px;
+	margin-left:97px;
+	}
+.ordtwo .orc .ord{
+	color:#666666;
+	margin-right:20px;
+	}
+.ordtwo .ore{
+	float:right;
+	display:block;
+	}
+.ordtwo .ore .orf{
+	color:#444444;
+	font-size:1.2em;
+	line-height:25px;
+	}
+.ordtwo .ore .orf .orh{
+	color:#ff7e00;
+	font-weight:600;
+	}
+.ordtwo .ore .org{
+	color:#444444;
+	font-size:1.2em;
+	line-height:25px;
+	float:right;
+	}
+.ordtwo .ore .org .ori{
+	color:#ff7e00;
+	font-weight:600;
+	}
+.ordthr{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-left:28px;
+	}
+.ordthra{
+	max-width:1145px;
+	width:100%;
+	min-height:25px;
+	float:left;
+	margin-top:20px;
+	}
+.ordthra .orj{
+	float:left;
+	line-height:25px;
+	font-size:1.4em;
+	color:#444;
+	}
+.ordthra .orj .ork{
+	width:19px;
+	height:23px;
+	display:block;
+	float:left;
+	margin-top:2px;
+	margin-right:5px;
+	}
+.ordthra .orl{
+	float:right;
+	line-height:25px;
+	font-size:14px;
+	color:#666666;
+	}
+.ordthra .orl .orm{
+	color:#fd0202;
+	}
+.ordthrb{
+	max-width:675px;
+	width:100%;
+	height:auto;
+	margin-top:8px;
+	float:left;
+	}
+.ordthrb p{
+	float:left;
+	color:#444444;
+	font-size:14px;
+	font-weight:600;
+	}
+.ordthrb p span{
+	color:#fd7b03;
+	font-size:14px;
+	font-weight:normal;
+	}
+	
+	
+.odfour{
+	max-width:1200px;
+	width:100%;
+	min-height:410px;
+	float:left;
+	background:#fff;
+	}
+.odfour p{
+	max-width:1200px;
+	width:100%;
+	min-height:58px;
+	float:left;
+	margin-top:130px;
+	font-size:25px;
+	color:#7377c0;
+	line-height:58px;
+	}
+.odfour p span{
+	width:58px;
+	height:58px;
+	display:block;
+	float:left;
+	margin-right:10px;
+	margin-left:40%;
+	}
+.odfour a{
+	max-width:1200px;
+	width:100%;
+	min-height:20px;
+	float:left;
+	text-align:center;
+	line-height:20px;
+	color:#555555;
+	font-family:"宋体";
+	margin-top:30px;
+}
+.orafw{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	}
+.orafw ul{
+	float:left;
+	max-width:670px;
+	width:100%;
+	height:auto;
+	}
+.orafw ul li{
+	max-width:370px;
+	width:100%;
+	min-height:32px;
+	margin-top:15px;
+	float:left;
+	}
+.orafw ul li .oub{
+	width:90px;
+	height:32px;
+	margin-right:5px;
+	float:left;
+	line-height:32px;
+	color:#666666;
+	font-size:14px;
+	text-align:right;
+	}
+.orafw ul li .oub span{
+	color:#fd0202;
+	font-size:14px;
+	}
+.tat1{
+	width:160px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	border:1px solid #c8c8c8;
+	}
+.tat2{
+	width:270px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	border:1px solid #c8c8c8;
+	}
+.tat3{
+	width:104px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	border:1px solid #c8c8c8;
+	}
+.but2{
+	width:105px;
+	height:31px;
+	float:right;
+	font-size:16px;
+	color:#fff;
+	border-radius:30px;
+	cursor:pointer;
+	background:#9ea2f3;
+	}
+.tat4{
+	display:block;
+	float:left;
+	margin-top:9px;
+	}
+.orafw ul li .ouc{
+	float:left;
+	line-height:32px;
+	color:#444;
+	margin-left:3px;
+	margin-right:30px;
+	}
+.orafw img{
+	float:left;
+	}
+.kuwedf{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	}
+.kuwedf li{
+	max-width:410px;
+	width:100%;
+	min-height:32px;
+	float:left;
+	margin-top:17px;
+	}
+.kuwedf li .oud{
+	width:100px;
+	height:32px;
+	text-align:right;
+	line-height:32px;
+	color:#666666;
+	font-size:14px;
+	float:left;
+	margin-right:5px;
+	}
+.kuwedf li .ouz{
+	width:130px;
+	height:32px;
+	text-align:right;
+	line-height:32px;
+	color:#666666;
+	font-size:14px;
+	float:left;
+	margin-right:5px;
+	}
+.kuwedf li .ouz span{
+	color:#fd0202;
+	margin-right:4px;
+	}
+.kuwedf li .oud span{
+	color:#fd0202;
+	margin-right:4px;
+	}
+	
+	
+.kuwedf li .oue{
+	width:200px;
+	height:32px;
+	text-align:left;
+	line-height:32px;
+	color:#666666;
+	font-size:14px;
+	float:left;
+	margin-left:15px;
+	}
+.kuwedf li .oue span{
+	color:#fd0202;
+	margin-right:4px;
+	}
+.but3{
+	width:105px;
+	height:31px;
+	float:left;
+	font-size:16px;
+	color:#fff;
+	border-radius:30px;
+	cursor:pointer;
+	margin-left:100px;
+	background:#9ea2f3;
+	}
+.kjas{
+	max-width:1145px;
+	width:100%;
+	height:25px;
+	float:left;
+	line-height:25px;
+	font-size:14px;
+	color:#444444;
+	}
+.kjabox{
+	max-width:1140px;
+	width:100%;
+	min-height:218px;
+	border:1px solid #d8d8d8;
+	float:left;
+	margin-top:7px;
+	}
+.kjasty{
+	max-width:1140px;
+	width:100%;
+	min-height:218px;
+	overflow-y:auto;
+	}
+.kjasty span{
+	display:block;
+	color:#444444;
+	font-size:14px;
+	font-weight:600;
+	line-height:25px;
+	margin-top:10px;
+	margin-left:20px;
+	}
+.kjasty p{
+	padding-left:20px;
+	padding-right:20px;
+	line-height:22px;
+	color:#666666;
+	}
+.uioqa{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	padding-bottom:20px;
+	}
+.uioqa li{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	}
+.tat5{
+	margin-top:10px;
+	margin-right:2px;
+	float:left;
+	}
+.uioqa li .ouf{
+	float:left;
+	font-size:14px;
+	color:#444444;
+	line-height:32px;
+	margin-right:50px;
+	}
+.uioqa li .oug{
+	float:left;
+	font-size:14px;
+	color:#444444;
+	width:90px;
+	height:32px;
+	text-align:right;
+	line-height:32px;
+	margin-right:7px;
+	}
+.uioqa li a{
+	width:106px;
+	height:31px;
+	float:left;
+	display:block;
+	margin-right:15px;
+	border-radius:30px;
+	background:#9ea2f3;
+	line-height:31px;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	}
+
+.uioqa li .ouh{
+	color:#999999;
+	font-size:14px;
+	line-height:21px;
+	}
+.uioqa li .ouh span{
+	color:#fd0202;
+	}
+	
+.ortwo{
+	max-width:1140px;
+	width:100%;
+	min-height:175px;
+	float:left;
+	background:#eeeded;
+	border:1px solid #e6e4e4;
+	margin-left:30px;
+	margin-top:30px;
+	}
+.ortwo .oui{
+	max-width:1140px;
+	width:100%;
+	float:left;
+	min-height:26px;
+	line-height:26px;
+	margin-top:20px;
+	color:#444444;
+	font-size:16px;
+	}
+.ortwo .oui span{
+	width:26px;
+	height:26px;
+	display:block;
+	float:left;
+	margin-left:55px;
+	margin-right:4px;
+	}
+.ortwo .ouj{
+	max-width:1000px;
+	width:100%;
+	height:auto;
+	float:left;
+	color:#444;
+	font-size:16px;
+	line-height:35px;
+	margin-left:87px;
+	}
+.ortwo .ouj span{
+	color:#ff8a00;
+	margin-left:10px;
+	}
+.ortwoul{
+	max-width:1140px;
+	width:100%;
+	height:auto;
+	float:left;
+	padding-bottom:70px;
+	margin-left:30px;
+	}
+.ortwoul li{
+	max-width:1140px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	}
+.ortwoul li .ouk{
+	max-width:1140px;
+	width:100%;
+	height:25px;
+	font-weight:600;
+	font-size:16px;
+	color:#444444;
+	margin-top:10px;
+	}
+.ortwoul li .oul{
+	width:130px;
+	height:32px;
+	line-height:32px;
+	text-align:right;
+	margin-right:5px;
+	font-size:14px;
+	float:left;
+	color:#444444;
+	}
+.ortwoul li .oul .oum{
+	color:#fd0202;
+	margin-right:4px;
+	}
+.ortwoul li .oun{
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	float:left;
+	color:#c5c5c5;
+	margin-left:7px;
+	}
+	
+.tat6{
+	width:334px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	border:1px solid #c8c8c8;
+	}
+.ortwoul li .uqws{
+	width:157px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	display:block;
+	border:1px solid #c8c8c8;
+	}
+.tat7{
+	width:122px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	}
+.ortwoul li .uqws .ouas{
+	display:block;
+	width:20px;
+	height:17px;
+	float:left;
+	margin-top:6px;
+	cursor:pointer;
+	}
+.ortwoul li .ouo{
+	float:left;
+	margin-left:10px;
+	color:#0025dd;
+	font-size:14px;
+	line-height:32px;
+	cursor:pointer;
+	}
+.tat8{
+	width:675px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	}
+.tat9{
+	width:110px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	}
+.ortwoul li a{
+	width:106px;
+	height:31px;
+	float:left;
+	background:#9ea2f3;
+	border-radius:31px;
+	margin-right:14px;
+	display:block;
+	line-height:31px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	}
+.ortwoul li .oup{
+	color:#fd0202;
+	font-size:14px;
+	line-height:32px;
+	}
+.orafw li .oiua{
+	color:#444444;
+	font-size:14px;
+	line-height:32px;
+	}
+.ortwoul li .uar{
+	color:#444444;
+	font-size:14px;
+	line-height:32px;}
+.ortwoul li .uaz{
+	float:left;
+	font-size:14px;
+	color:#444444;
+	line-height:32px;
+	margin-right:50px;
+	}
+.tat20{
+	width:250px;
+	height:30px;
+	float:left;
+	color:#b6b6b6;
+	line-height:30px;
+	text-indent:7px;
+	border:1px solid #c8c8c8;
+	}
+.kawedf{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	float:left;
+	}
+.kawedf li{
+	max-width:500px;
+	width:100%;
+	min-height:32px;
+	float:left;
+	margin-top:17px;
+	}
+.kawedf li .ouz{
+	width:130px;
+	height:32px;
+	text-align:right;
+	line-height:32px;
+	color:#666666;
+	font-size:14px;
+	float:left;
+	margin-right:5px;
+	}
+.kawedf li .ouz .ya1{
+	color:#fd0202;
+	margin-right:4px;
+	}
+.kawedf li .ya2{
+	width:157px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	display:block;
+	}
+.txt3{
+	width:120px;
+	height:30px;
+	float:left;
+	}
+.kawedf li .ya2 .ya3{
+	display:block;
+	float:left;
+	margin-top:7px;
+	margin-left:7px;
+	cursor:pointer;
+	}
+.kawedf li .ya4{
+	float:left;
+	line-height:30px;
+	color:#b8b8b8;
+	font-size:14px;
+	margin-left:15px;
+	}
+.cataj{
+	width:1145px;
+	height:25px;
+	float:left;
+	margin-top:10px;
+	}
+.cataj span{
+	display:block;
+	float:left;
+	width:25px;
+	height:25px;
+	margin-right:5px;
+	}
+.cataj p{
+	line-height:25px;
+	font-weight:600;
+	color:#444444;
+	font-size:16px;
+	}
+.oiwe{
+	max-width:1145px;
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	float:left;
+	}
+.txt4{
+	max-width:955px;
+	width:100%;
+	height:196px;
+	float:left;
+	margin-left:30px;
+	border:1px solid #d8d8d8;
+	}
+.oauie{
+	max-width:1200px;
+	width:100%;
+	height:auto;
+	float:left;
+	padding-bottom:10px;
+	border-bottom:1px dashed #444444;
+	}
+.kasrg{
+	max-width:1150px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-left:28px;
+	}
+.kasrg li{
+	max-width:1150px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:20px;
+	}
+.ioua{
+	width:165px;
+	height:165px;
+	float:left;
+	}
+.ioub{
+	max-width:720px;
+	width:100%;
+	height:auto;
+	float:left;
+	margin-left:20px;
+	}
+.ioub p{
+	font-size:16px;
+	color:#444444;
+	}
+.ioub span{
+	font-size:14px;
+	color:#666666;
+	margin-top:7px;
+	display:block;
+	}
+.iouc{
+	width:210px;
+	height:auto;
+	float:right;
+	}
+.ioud{
+	width:210px;
+	height:auto;
+	float:left;
+	border-bottom:1px dashed #444444;
+	padding-bottom:10px;
+	}
+.ioud p{
+	width:105px;
+	height:25px;
+	float:left;
+	text-indent:20px;
+	color:#444444;
+	font-size:14px;
+	cursor:pointer;
+	}
+.ioud p:hover{
+	color:#bcb2ff;
+	}
+.ioue{
+	width:210px;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	}
+.ioue span{
+	width:100px;
+	height:50px;
+	float:left;
+	display:block;
+	text-align:right;
+	color:#444444;
+	font-size:14px;
+	}
+.ioue p{
+	font-size:14px;
+	color:#ff7e00;
+	font-weight:600;
+	}
+.txt5{
+	width:70px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	margin-right:10px;
+	}
+.txt6{
+	width:110px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	margin-right:10px;
+	}
+.txt10{
+	width:50px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	margin-right:10px;
+	}
+.txt7{
+	width:175px;
+	height:30px;
+	float:left;
+	border:1px solid #c8c8c8;
+	margin-right:10px;
+	}
+.txt8{
+	float:left;
+	margin-top:9px;
+	margin-right:3px;
+	}
+.kawedf li .our{
+	float:left;
+	line-height:32px;
+	font-size:14px;
+	color:#444;
+	margin-right:20px;
+	}
+.kawedf li .ya4 .ya5{
+	color:#fd0202;
+	}
+.kawedf li .ya6{
+	float:left;
+	line-height:32px;
+	color:#666;
+	font-size:14px;
+	margin-right:5px;
+	}
+.kawedf li .ya6 .ya7{
+	color:#fd0202;
+	margin-right:3px;
+	}
+.kawedf li .ya8{
+	float:left;
+	line-height:32px;
+	color:#444;
+	font-size:14px;
+	margin-right:5px;
+	
+	}
+.kawedf li .ya8 .ya9{
+	color:#fd0202;
+	margin-right:3px;
+	margin-left:5px;
+	}
+.uksefe{
+	width:200px;
+	height:auto;
+	position:absolute;
+	margin-top:30px;
+	margin-left:950px;
+	}
+.uksefe p{
+	color:#999999;
+	line-height:23px;
+	}
+.uksefe p span{
+	color:#fd0202;
+	}
+.boxday{
+	width:100%;
+	height:1834px;
+	position:absolute;
+	background:url(../images/ca6.png);}
+.daybo{
+	max-width:462px;
+	width:100%;
+	min-height:252px;
+	background:#FFF;
+	margin-left:auto;
+	margin-top:200px;
+	margin-right:auto;
+	}
+.dayle{
+	width:162px;
+	height:163px;
+	float:left;
+	border-right:1px dashed #666666;
+	margin-top:40px;
+	margin-left:45px;
+	}
+.dayle a{
+	width:115px;
+	height:42px;
+	float:left;
+	display:block;
+	background:#9ea2f3;
+	border-radius:4px;
+	margin-top:20px;
+	line-height:42px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	}
+.dayri{
+	width:170px;
+	height:auto;
+	float:left;
+	margin-top:75px;
+	margin-left:45px;
+	}
+.dayri p{
+	color:#444444;
+	font-size:14px;
+	line-height:21px;
+	}
+.dayri p a{
+	color:#022cfc;
+	text-decoration:underline;
+	}
